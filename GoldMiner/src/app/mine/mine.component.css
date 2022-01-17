@@ -1,0 +1,24 @@
+.miner-circle{
+    height: 30rem;
+    width: 30rem;
+    background-color:rgb(252, 227, 204);
+    border-radius: 50%;
+    background: rgb(198,194,68);
+    background: radial-gradient(circle, rgba(198,194,68,1) 16%, rgba(227,36,36,1) 98%); 
+    border: 10px dashed black;
+}
+  
+.ore{
+   border-radius:50%;
+   height: 10rem;
+   width: 10rem;
+}
+
+.mine{
+    border:goldenrod 6px solid;
+}
+
+.ore:active{
+  height: 9rem;
+  width: 9rem;
+}

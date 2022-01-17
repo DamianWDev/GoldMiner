@@ -1,26 +1,31 @@
-<div class="card text-white bg-dark" style="width: 17rem;">
+<div class="card text-white bg-dark mb-5">
     <div class="card-header">
         <div class="row">
             <div class="col text-center">
-                <b>Igloo miner</b>
+                <b>{{localCard.title}}</b>
             </div>
         </div>
     </div>
-    <img src="https://pa1.narvii.com/6682/e529b89eff87204dd86ca30d75202794bb455e08_00.gif" class="card-img-top"
-        alt="...">
+    <img src="{{localCard.imgUrl}}" class="card-img-top bg-white" style="width: auto; height: 20rem;" alt="...">
     <div class="card-body bg-secondary">
-        <div class="">
-            <div class="row row-cols">
-                <div class="col-sm-5 text-center mb-2 mt-2">+100$/s</div>
-                <div class="col text-right">
-                    <button class="btn text-white bg-success mb-2" style="width: 7rem">BUY</button>
+        <div class="rows">
+            <div class="row ">
+                <div class="col text-center mb-2 mt-2">LEVEL</div>
+                <div class="col text-center mb-2 mt-2">INCOME</div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <h2>{{localCard.level}}</h2>
                 </div>
-                <div class="col-sm-5 mt-2 text-center">+2137$/s</div>
-                <div class="col text-right">
-
-                    <button class="btn text-white bg-warning " style="width: 7rem">BUY MAX</button>
+                <div class="col text-center">
+                    <h2>{{localCard.income}}$</h2>
                 </div>
-
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <button class="btn btn-lg btn-block text-white bg-success mt-2 mb-2" (click)="buy()">BUY FOR
+                        {{localCard.cost}}$</button>
+                </div>
             </div>
         </div>
     </div>

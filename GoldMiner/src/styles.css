@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    background: #c2c2c2;
+}
+
+.spin-animation {
+    animation-name: rotate;
+    animation-duration: 45s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  .inv-spin-animation {
+    animation-name: invrotate;
+    animation-duration: 90s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes invrotate {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
+  }

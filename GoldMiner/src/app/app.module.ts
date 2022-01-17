@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StructListComponent } from './struct-list/struct-list.component';
 import { StructCardComponent } from './struct-card/struct-card.component';
+import { MineComponent } from './mine/mine.component';
+import { GameHubComponent } from './game-hub/game-hub.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StructListComponent,
-    StructCardComponent
+    StructCardComponent,
+    MineComponent,
+    GameHubComponent,
   ],
   imports: [
     BrowserModule,
