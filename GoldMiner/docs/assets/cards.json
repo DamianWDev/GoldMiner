@@ -1,0 +1,52 @@
+[
+    {
+        "imgUrl": "./assets/images/goldOre.png",
+        "title": "Gold Ore",
+        "level": 1,
+        "income": 5,
+        "incomeMultiplier": 1.5,
+        "passiveIncome": false,
+        "cost": 50,
+        "costMultiplier": 1.3
+    },
+    {
+        "imgUrl": "./assets/images/pickaxe.png",
+        "title": "Pickaxe",
+        "level": 1,
+        "income": 1,
+        "incomeMultiplier": 3,
+        "passiveIncome": false,
+        "cost": 1500,
+        "costMultiplier": 2.2
+    },
+    {
+        "imgUrl": "./assets/images/miner.png",
+        "title": "Miner",
+        "level": 0,
+        "income": 0,
+        "incomeMultiplier": 1.25,
+        "passiveIncome": true,
+        "cost": 25,
+        "costMultiplier": 1.2
+    },
+    {
+        "imgUrl": "./assets/images/DwarfMiner.png",
+        "title": "Dwarf Miner",
+        "level": 0,
+        "income": 0,
+        "incomeMultiplier": 2,
+        "passiveIncome": true,
+        "cost": 700,
+        "costMultiplier": 3
+    },
+    {
+        "imgUrl": "./assets/images/FerretMiner.jpg",
+        "title": "Ferret Miner",
+        "level": 0,
+        "income": 0,
+        "incomeMultiplier": 1.8,
+        "passiveIncome": true,
+        "cost": 1000,
+        "costMultiplier": 2
+    }
+]
